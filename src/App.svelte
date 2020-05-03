@@ -1,10 +1,12 @@
 <script>
 	import Counter from './Counter.svelte';
-	let count = 9
+	import List from './NumbersList.svelte';
+	let numbers = [0,1,2,3,4,5]
 </script>
 
 <main>
-	<Counter count={count} />
+	<Counter count={12} />
+	<List numbers={numbers} />
 </main>
 
 <style>
